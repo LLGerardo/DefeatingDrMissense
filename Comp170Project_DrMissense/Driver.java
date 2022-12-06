@@ -6,13 +6,13 @@ public class Driver {
         cutScene1(); //intro + tutorial for level 1
         LevelOne1 game = new LevelOne1(); // prints level 1
         game.start();
-        //cutScene2();// cut scene + tutorial for level 2
-        //LevelTwo2 game2 = new LevelTwo2(); // prints level 2
-        //game2.start();
-        //cutScene3(); // cut scene + tutorial for level 3
-        //LevelThree3 game3 = new LevelThree3(); // prints level 3
-        //game3.start();
-        // cutScene4();// cut scene + tutorial for level 4
+        cutScene2();// cut scene + tutorial for level 2
+        LevelTwo2 game2 = new LevelTwo2(); // prints level 2
+        game2.start();
+        cutScene3(); // cut scene + tutorial for level 3
+        LevelThree3 game3 = new LevelThree3(); // prints level 3
+        game3.start();
+        cutScene4();// cut scene + tutorial for level 4
         LevelFour4 game4 = new LevelFour4(); // prints level 4
         finalScene();// final scene + game ends
     }
